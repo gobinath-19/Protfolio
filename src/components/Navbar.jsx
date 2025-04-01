@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div data-aos="fade-down"  className="fixed top-0 left-0 w-full z-50 sm:min-w-full">
       <div className="primary-color text-white flex justify-between items-center px-7 py-5 drop-shadow-lg">
-        <h1 data-aos='fade-right' data-aos-delay="300" className="text-color font-bold md:ml-10 text-4xl hover-port">Gobinath K</h1>
+        <h1 data-aos='fade-right' data-aos-delay="300" className="ml-[-10px] text-color font-bold md:ml-10 text-2xl md:text-4xl hover-port">Gobinath K</h1>
 
         {/* Desktop Navigation */}
         <nav className="md:block hidden">

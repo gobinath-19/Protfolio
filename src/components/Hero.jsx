@@ -26,7 +26,7 @@ const Hero = () => {
                         I'm a passionate web developer who loves crafting sleek, user-friendly experiences and dreams big, both in code and life.
                     </p>
                 </div>
-                <div className="flex gap-3 md:mt-10 mt-4 ml-12 md:ml-0" >
+                <div className="flex gap-3 md:mt-10 mt-4 ml-[50px] md:ml-0" >
                     <button data-aos='fade-up' data-aos-delay="500" className=' border-2 border-[#2db2ff] rounded-full md:p-1 p-2 hover:bg-[#2db2ff] hover:shadow-[0_0_15px_#2db2ff] transition duration-300' >
                         <a target="_blank" href="https://www.linkedin.com/in/gobinath-k-8b3b142a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="md:text-3xl text-xl text-[#2db2ff] hover:text-black transition duration-300">
                             <FaLinkedinIn />
@@ -55,8 +55,8 @@ const Hero = () => {
 
 
                 </div >
-                <a data-aos='fade-up' data-aos-delay="1500" href='../../assets/Gobinath-CV.pdf' download='Gobinath-CV.pdf'>
-                    <button className='ml-28 mt-4 md:ml-14 md:mt-5 md:text-xl text-xl text-[#1f242d] flex justify-start s-color rounded-full p-2 md:p-3 md:ml-12 font-semibold  md:w-40 sm:w-64 sm:mt-10 items-center hover:shadow-[0_0_0] shadow-[0_0_15px_#2db2ff] transition duration-300'>Download CV</button>
+                <a data-aos='fade-up' data-aos-delay="1500" href='/Gobinath-CV.pdf' download='Gobinath-CV.pdf'>
+                    <button className='ml-[104px] mt-4 md:ml-14 md:mt-5 md:text-xl text-xl text-[#1f242d] flex justify-start s-color rounded-full p-2 md:p-3 md:ml-12 font-semibold  md:w-40 sm:w-64 sm:mt-10 items-center hover:shadow-[0_0_0] shadow-[0_0_15px_#2db2ff] transition duration-300'>Download CV</button>
                 </a>
             </div>
 

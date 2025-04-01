@@ -5,7 +5,6 @@ import javascript from '../assets/javascript.png'
 import tailwind from '../assets/tailwind.png'
 import react from '../assets/react.png'
 import spring from '../assets/springboot.png'
-import express from '../assets/express.png'
 import mongodb from '../assets/mongodb.png'
 import mysql from '../assets/mysql.png'
 import jwt from '../assets/jwt.png'
@@ -61,9 +60,7 @@ const Skills = () => {
                 </div>
 
                 
-                {/* express */}
-                <Tech srcPath={express} srcAlt={"Express language"} srcName='Express' width={100} height={100} outerSmallScreenW='40px' outerLargeScreenW='100px' />
-
+              
                 {/* mongodb */}
                 <Tech srcPath={mongodb} srcAlt={"MongoDB tech"} srcName='MongoDB' width={100} height={100} outerSmallScreenW='40px' outerLargeScreenW='100px' />
 
