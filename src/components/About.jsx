@@ -3,7 +3,7 @@ import aboutImg from '../assets/about.jpg'
 
 const About = () => {
     return (
-        <div id="about" className='primary-color scroll-smooth text-white max-w-full'>
+        <div id="about" className='primary-color scroll-smooth text-white max-w-full md:ml-20 sm:ml-20'>
 
             <div  className='md:grid md:grid-cols-2 sm:py-16'>
 
