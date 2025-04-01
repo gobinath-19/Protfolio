@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+.primary-color{
+  @apply bg-[#1f242d];
+}
+
+.text-color{
+  @apply bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent;
+}
+
+.s-color{  
+  @apply bg-gradient-to-r from-blue-500 to-teal-400;
+}
+
+.hover-port{
+  @apply hover:text-[#0ef];
+}
+
+.bgg{
+  @apply bg-[#1f242d];
+}
+
+/* animation */
+
+.home-img img {
+  width: 35vw;
+  animation: floatImage 4s ease-in-out infinite;
+  display: block; /* Ensures it takes up space */
+  position: relative; /* Ensures animation works */
+}
+
+@keyframes floatImage {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-2.4rem);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+/* for smooth schrolling */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* navbar active */
+
+.navbar.active {
+  display: block;
+}
+
+.navbar a.active {
+  @apply first-letter:text-[#0ef];
+}
+
+
+
+/* padding */
+
+body, html {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
