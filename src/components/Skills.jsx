@@ -15,23 +15,23 @@ import Tech from '../helpers/Tech'
 
 const Skills = () => {
     return (
-        <div className='bgg pb-[100px] pl-8'>
+        <div >
             {/* skills */}
 
-            <p data-aos='fade-right' className=' text-4xl mb-3 font-bold bg-gradient-to-r bg-pink-500 text-transparent bg-clip-text from-blue-500 to-teal-400  inline-block ml-20'>Skills</p>
+            <p data-aos='fade-right' className=' text-4xl mb-3 font-bold bg-gradient-to-r bg-pink-500 text-transparent bg-clip-text from-blue-500 to-teal-400  inline-block ml-6'>Skills</p>
 
             {/* Front-end Tech */}
-            <div data-aos='fade-left' className=' border border-gray-700 sm:my-5 primary-color text-gray-400 px-8 py-4 md:h-auto max-w-[100%] md:max-w-[1200px] md:rounded-t-4xl mx-auto flex flex-wrap justify-center items-center gap-6'>
+            <div data-aos='fade-up' className='bgg  border border-gray-700 sm:my-5 bg-black text-gray-400 px-8 py-4 md:h-auto max-w-[100%] md:max-w-[1200px] md:rounded-t-4xl mx-auto flex flex-wrap justify-center items-center gap-6'>
 
                 {/* Tech Title */}
                 <div className='flex flex-col items-center w-full md:w-auto text-center'>
-                    <h2 className='text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold md:m-5'>
+                    <h2 className='text-white  text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold md:m-5'>
                         My<br />Front-end<br />Stack
                     </h2>
                 </div>
 
                 {/* HTML */}
-                <Tech srcPath={html} srcAlt={"HTML skill"} srcName='Html' width={100} height={100} outerSmallScreenW='40px' outerLargeScreenW='100px' />
+                <Tech srcPath={html} srcAlt={"HTML skill/"} srcName='Html' width={100} height={100} outerSmallScreenW='40px' outerLargeScreenW='100px' />
 
                 {/* CSS */}
                 <Tech srcPath={css} srcAlt={"CSS skill"} srcName='CSS' width={100} height={100} outerSmallScreenW='40px' outerLargeScreenW='100px' />
@@ -49,8 +49,9 @@ const Skills = () => {
 
             </div>
 
+
             {/* Back-end Tech*/}
-            <div data-aos='fade-right' className=' border border-gray-700  sm:my-5 primary-color text-gray-400 px-8 py-4 md:h-auto max-w-[100%] md:max-w-[1200px] md:rounded-b-4xl mx-auto flex flex-wrap justify-center items-center gap-6'>
+            <div data-aos='fade-up' className='bgg border border-gray-700 sm:my-5 bg-black text-gray-400 px-8 py-4 md:h-auto max-w-[100%] md:max-w-[1200px] md:rounded-b-4xl mx-auto flex flex-wrap justify-center items-center gap-6'>
 
                 {/* Tech Title */}
                 <div className='flex flex-col items-center w-full md:w-auto text-center'>
@@ -59,9 +60,9 @@ const Skills = () => {
                     </h2>
                 </div>
 
-                {/* Node js */}
-                <Tech srcPath={spring} srcAlt={"NodeJs language"} srcName='Spring Boot' width={100} height={100} outerSmallScreenW='40px' outerLargeScreenW='100px' />
-
+                
+                {/* express */}
+                <Tech srcPath={express} srcAlt={"Express language"} srcName='Express' width={100} height={100} outerSmallScreenW='40px' outerLargeScreenW='100px' />
 
                 {/* mongodb */}
                 <Tech srcPath={mongodb} srcAlt={"MongoDB tech"} srcName='MongoDB' width={100} height={100} outerSmallScreenW='40px' outerLargeScreenW='100px' />
@@ -75,7 +76,6 @@ const Skills = () => {
                 {/* Add more technologies here*/}
 
             </div>
-
         </div>
 
     )
