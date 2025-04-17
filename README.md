@@ -14,9 +14,8 @@ It showcases my projects, skills, experience, and contact details in a modern an
 - Tailwind CSS – Utility-first CSS framework
 - Vite – Fast build tool for React
 
-🔗 Live Demo
-(Add your Netlify/Vercel link here if hosted)
-[Click here to view live](#)
+🔗 Live Demo: 
+  https://protfolio-tau-henna.vercel.app/
 
 🛌 Contact
 - Email: gobinath1019@gmail.com
