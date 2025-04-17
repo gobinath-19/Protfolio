@@ -1,12 +1,25 @@
-# React + Vite
+🧑‍💻 Gobinath K – Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built using React JS and Tailwind CSS.
+It showcases my projects, skills, experience, and contact details in a modern and responsive design.
 
-Currently, two official plugins are available:
+🚀 Features
+- Clean and responsive design
+- Sections: About Me, Skills, Projects, Work Experience, Education, and Contact
+- Built with React JS and styled using Tailwind CSS
+- Fully mobile-friendly and easy to navigate
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Technologies Used
+- React JS – Frontend library
+- Tailwind CSS – Utility-first CSS framework
+- Vite – Fast build tool for React
 
-## Expanding the ESLint configuration
+🔗 Live Demo
+(Add your Netlify/Vercel link here if hosted)
+[Click here to view live](#)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛌 Contact
+- Email: gobinath1019@gmail.com
+- Phone: +91 93631 18493
+- Location: Tamil Nadu, Villupuram
+
